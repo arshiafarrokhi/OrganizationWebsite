@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:inherit
+}
+a:visited{
+    color: inherit;
+}
+li{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    width: 100%;
+    height: auto;
+    /* overflow-x: hidden */
+}
+body{
+    background-color:rgba(12, 17, 23, 1) ;
+}
